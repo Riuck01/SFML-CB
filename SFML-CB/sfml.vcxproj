@@ -18,41 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\Brick.cpp" />
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\BrickBreackerScene.cpp" />
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\Bullet.cpp" />
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\Cannon.cpp" />
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\GameManager.cpp" />
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\GameObject.cpp" />
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\InputManager.cpp" />
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\main.cpp" />
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\Maths.cpp" />
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\ShockWave.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\Brick.hpp" />
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\BrickBreakerScene.hpp" />
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\Bullet.hpp" />
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\Cannon.hpp" />
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\GameManager.hpp" />
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\GameObject.hpp" />
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\InputManager.hpp" />
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\Maths.hpp" />
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\Scene.hpp" />
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\ShockWave.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Font Include="..\..\..\deadlysinss111\sfml\sfml\arial.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\..\..\deadlysinss111\sfml\sfml\test.txt" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>16.0</VCProjectVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2705c020-6e78-44f6-b572-8ddeedf6a802}</ProjectGuid>
-    <RootNamespace>SFMLCB</RootNamespace>
+    <ProjectGuid>{619b1db2-bd6a-4a7b-9534-fa7195461a19}</ProjectGuid>
+    <RootNamespace>sfml</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -159,7 +129,30 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="includes\engine\BrickBreakerScene.hpp" />
+    <ClCompile Include="includes\engine\InputManager.hpp" />
+    <ClCompile Include="includes\logic\Brick.hpp" />
+    <ClCompile Include="includes\logic\Bullet.hpp" />
+    <ClCompile Include="includes\logic\Cannon.hpp" />
+    <ClCompile Include="includes\logic\ShockWave.hpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\game objects\ShockWave.cpp" />
+    <ClCompile Include="src\Maths.cpp" />
+    <ClCompile Include="src\game objects\Brick.cpp" />
+    <ClCompile Include="src\BrickBreackerScene.cpp" />
+    <ClCompile Include="src\game objects\Bullet.cpp" />
+    <ClCompile Include="src\game objects\Cannon.cpp" />
+    <ClCompile Include="src\game objects\GameObject.cpp" />
+    <ClCompile Include="src\GameManager.cpp" />
+    <ClCompile Include="src\InputManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\engine\Scene.hpp" />
+    <ClInclude Include="includes\logic\GameManager.hpp" />
+    <ClInclude Include="includes\logic\GameObject.hpp" />
+    <ClInclude Include="includes\logic\Maths.hpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets">
-  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
 </Project>
