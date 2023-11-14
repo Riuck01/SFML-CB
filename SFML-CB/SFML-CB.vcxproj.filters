@@ -47,35 +47,35 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\deadlysinss111\sfml\sfml\Bullet.hpp">
-      <Filter>Fichiers sources</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\deadlysinss111\sfml\sfml\Cannon.hpp">
-      <Filter>Fichiers sources</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\deadlysinss111\sfml\sfml\GameManager.hpp">
-      <Filter>Fichiers sources</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\deadlysinss111\sfml\sfml\GameObject.hpp">
-      <Filter>Fichiers sources</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\deadlysinss111\sfml\sfml\InputManager.hpp">
-      <Filter>Fichiers sources</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\deadlysinss111\sfml\sfml\Maths.hpp">
-      <Filter>Fichiers sources</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\deadlysinss111\sfml\sfml\Scene.hpp">
-      <Filter>Fichiers sources</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\deadlysinss111\sfml\sfml\Brick.hpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="..\..\deadlysinss111\sfml\sfml\BrickBreakerScene.hpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\deadlysinss111\sfml\sfml\Bullet.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\deadlysinss111\sfml\sfml\Cannon.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\deadlysinss111\sfml\sfml\GameManager.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\deadlysinss111\sfml\sfml\GameObject.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\deadlysinss111\sfml\sfml\InputManager.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\deadlysinss111\sfml\sfml\Maths.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\deadlysinss111\sfml\sfml\Scene.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="..\..\deadlysinss111\sfml\sfml\ShockWave.hpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
