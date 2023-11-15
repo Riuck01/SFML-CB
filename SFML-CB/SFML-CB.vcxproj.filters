@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers sources\game object">
+      <UniqueIdentifier>{f2737cf9-364b-4e83-aa90-181a95461e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\engine">
+      <UniqueIdentifier>{2f48073e-3392-4bff-889a-5b5bb2bf600b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\logic">
+      <UniqueIdentifier>{73951507-b2a7-43e2-ac78-b8188c75538b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\asset">
+      <UniqueIdentifier>{0f376343-1951-4952-b0e9-1c074c281a6c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\InputManager.cpp">
@@ -24,68 +36,62 @@
     <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\Maths.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\Brick.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\BrickBreackerScene.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\Bullet.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\Cannon.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\GameManager.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\GameObject.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\ShockWave.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\Brick.cpp">
+      <Filter>Fichiers sources\game object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\Bullet.cpp">
+      <Filter>Fichiers sources\game object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\Cannon.cpp">
+      <Filter>Fichiers sources\game object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\deadlysinss111\sfml\sfml\GameObject.cpp">
+      <Filter>Fichiers sources\game object</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\Brick.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\BrickBreakerScene.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\Bullet.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\GameObject.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\Cannon.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\GameManager.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\InputManager.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\Maths.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\engine</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\Scene.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\Brick.hpp">
+      <Filter>Fichiers d%27en-tête\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\Bullet.hpp">
+      <Filter>Fichiers d%27en-tête\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\Cannon.hpp">
+      <Filter>Fichiers d%27en-tête\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\GameManager.hpp">
+      <Filter>Fichiers d%27en-tête\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\GameObject.hpp">
+      <Filter>Fichiers d%27en-tête\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\Maths.hpp">
+      <Filter>Fichiers d%27en-tête\logic</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\deadlysinss111\sfml\sfml\ShockWave.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\logic</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Font Include="..\..\..\deadlysinss111\sfml\sfml\arial.ttf">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\asset</Filter>
     </Font>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\deadlysinss111\sfml\sfml\test.txt">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\asset</Filter>
     </Text>
   </ItemGroup>
 </Project>
